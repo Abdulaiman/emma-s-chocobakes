@@ -169,15 +169,15 @@ const Home = () => {
             <div className="text-center">
               <p className="headline-1 navbar-title">Visit Us</p>
               <address className="body-4">
-                Restaurant St, Delicious City, <br />
-                London 9578, UK
+                Room 23, Block K, Bayero University Kano <br />
+                Kano State, Nigeria
               </address>
-              <p className="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+              {/* <p className="body-4 navbar-text">Open: 9.30 am - 2.30pm</p> */}
               <a
-                href="mailto:booking@grilli.com"
+                href="muhammadlawankola@gmail.com"
                 className="body-4 sidebar-link"
               >
-                booking@grilli.com
+                muhammadlawankola@gmail.com
               </a>
               <div className="separator"></div>
               <p className="contact-label">Booking Request</p>
