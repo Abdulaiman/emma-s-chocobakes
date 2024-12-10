@@ -237,7 +237,7 @@ const Home = () => {
               We supply high-quality rice, beans, and other grains at affordable
               prices.
             </p>
-            <a href="#" className="btn btn-primary slider-reveal">
+            <a href="#contact" className="btn btn-primary slider-reveal">
               <span className="text text-1">Shop Now</span>
               <span className="text text-2" aria-hidden="true">
                 Shop Now
@@ -264,7 +264,7 @@ const Home = () => {
             <p className="body-2 hero-text slider-reveal">
               Save money without compromising on quality. Perfect for students!
             </p>
-            <a href="#" className="btn btn-primary slider-reveal">
+            <a href="#contact" className="btn btn-primary slider-reveal">
               <span className="text text-1">Order Now</span>
               <span className="text text-2" aria-hidden="true">
                 Order Now
@@ -291,8 +291,8 @@ const Home = () => {
             <p className="body-2 hero-text slider-reveal">
               We make it easy for you to get the grains you need without hassle.
             </p>
-            <a href="#" className="btn btn-primary slider-reveal">
-              <span className="text text-1">See Our Products</span>
+            <a href="#contact" className="btn btn-primary slider-reveal">
+              <span className="text text-1">Order Now</span>
               <span className="text text-2" aria-hidden="true">
                 See Our Products
               </span>
