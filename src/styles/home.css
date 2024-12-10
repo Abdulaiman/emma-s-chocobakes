@@ -1,0 +1,149 @@
+/* Hero Section */
+.hero {
+  background: url("../../assets/images/about-banner.jpg") center center
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  filter: brightness(0.45); /* Slightly dimmer for better focus on content */
+  overflow: hidden; /* Ensures parallax effect stays clean */
+  transition: background-position 0.5s ease-in-out; /* Smooth background transition */
+}
+
+.hero-text {
+  position: relative;
+  padding: 3rem 5rem;
+  max-width: 80%;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px); /* Blurred effect for modern aesthetic */
+  z-index: 2; /* Ensures text is above the overlay */
+  transform: translateY(50px);
+  animation: fadeUp 1s ease-out forwards; /* Text fade-up animation */
+}
+
+.hero h1 {
+  font-family: var(--font-heading);
+  font-size: 5rem; /* Larger heading for desktop */
+  color: white;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 1.3;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Improved text shadow for depth */
+  opacity: 0;
+  animation: fadeIn 1.2s ease-out 0.5s forwards; /* Heading fade-in */
+}
+
+.hero p {
+  font-family: var(--font-primary);
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  color: white;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Less heavy shadow for improved readability */
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out 1s forwards; /* Paragraph fade-in */
+}
+
+.cta-button {
+  background-color: var(--cta-color);
+  color: white;
+  padding: 1.5rem 4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.cta-button:hover {
+  background-color: var(--cta-hover-color);
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Elevated hover effect */
+  color: white;
+}
+
+.cta-button:active {
+  transform: scale(0.98);
+}
+
+/* Scroll Smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Parallax Effect */
+.hero {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Keyframes for animation */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.8rem; /* Adjust heading size for mobile */
+  }
+
+  .hero p {
+    font-size: 1.3rem; /* Adjust paragraph font size */
+  }
+
+  .cta-button {
+    padding: 1.2rem 3rem; /* Adjust button padding */
+    font-size: 1.1rem; /* Slightly smaller button text */
+  }
+
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2rem 3rem; /* Less padding on smaller screens */
+  }
+}
+
+/* For larger screens */
+@media screen and (min-width: 1024px) {
+  .hero h1 {
+    font-size: 6rem; /* Larger font for desktops */
+  }
+
+  .hero p {
+    font-size: 2.5rem; /* Larger text for desktops */
+  }
+}

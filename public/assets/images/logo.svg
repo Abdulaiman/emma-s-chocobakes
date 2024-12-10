@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+  <!-- Plate and Spoon Symbol -->
+  <circle cx="70" cy="75" r="60" fill="#d8c292"/>
+  <circle cx="70" cy="75" r="45" fill="black"/>
+  <path d="M82 48c-3-7 0-15 6-19 4-4 10-4 14 0 4 4 7 12 6 19-1 6-8 12-12 15v35c0 5-4 9-9 9s-9-4-9-9V63c-5-3-10-9-12-15z" fill="#d8c292"/>
+
+  <!-- Text -->
+  <text x="150" y="80" font-family="Times New Roman, serif" font-size="60" fill="white">
+    KOLA
+  </text>
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="30" fill="#d8c292" letter-spacing="5">
+    RICE
+  </text>
+</svg>
