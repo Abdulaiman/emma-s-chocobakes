@@ -66,7 +66,7 @@ const Home = () => {
       {!isLoaded && (
         <div className={`preload ${isLoaded ? "loaded" : ""}`}>
           <div className="circle"></div>
-          <p className="text">Kola Rice</p>
+          <p className="text loading-text">Emma's Chocobakes</p>
         </div>
       )}
       {/* TOP BAR */}
@@ -76,7 +76,7 @@ const Home = () => {
             <div className="icon">
               <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
             </div>
-            <span className="span">K 23, Bayero University Kano</span>
+            <span className="span">Bayero University Kano</span>
           </address>
           <div className="separator"></div>
           <div className="topbar-item item-2">
@@ -85,18 +85,18 @@ const Home = () => {
             </div>
             <span className="span">Daily : 24/7</span>
           </div>
-          <a href="tel:07085536471" className="topbar-item link">
+          <a href="tel:+2348088109416" className="topbar-item link">
             <div className="icon">
               <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
             </div>
-            <span className="span">+234 708 553 6471</span>
+            <span className="span">+234 808 810 9416</span>
           </a>
           <div className="separator"></div>
-          <a href="muhammadlawankola@gmail.com" className="topbar-item link">
+          <a href="emmaschocobakes@gmail.com" className="topbar-item link">
             <div className="icon">
               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
             </div>
-            <span className="span">muhammadlawankola@gmail.com</span>
+            <span className="span">emmaschocobakes@gmail.com</span>
           </a>
         </div>
       </div>
@@ -136,19 +136,31 @@ const Home = () => {
             </a>
             <ul className="navbar-list">
               <li className="navbar-item">
-                <a href="#home" className="navbar-link hover-underline active">
+                <a
+                  href="#home"
+                  className="navbar-link hover-underline active"
+                  onClick={toggleNavbar}
+                >
                   <div className="separator"></div>
                   <span className="span">Home</span>
                 </a>
               </li>
               <li className="navbar-item">
-                <a href="#menu" className="navbar-link hover-underline">
+                <a
+                  href="#special"
+                  className="navbar-link hover-underline"
+                  onClick={toggleNavbar}
+                >
                   <div className="separator"></div>
-                  <span className="span">Menus</span>
+                  <span className="span">Delights</span>
                 </a>
               </li>
               <li className="navbar-item">
-                <a href="#about" className="navbar-link hover-underline">
+                <a
+                  href="#about"
+                  className="navbar-link hover-underline"
+                  onClick={toggleNavbar}
+                >
                   <div className="separator"></div>
                   <span className="span">About Us</span>
                 </a>
@@ -160,7 +172,11 @@ const Home = () => {
                 </a>
               </li> */}
               <li className="navbar-item">
-                <a href="#contact" className="navbar-link hover-underline">
+                <a
+                  href="#contact"
+                  className="navbar-link hover-underline"
+                  onClick={toggleNavbar}
+                >
                   <div className="separator"></div>
                   <span className="span">Contact</span>
                 </a>
@@ -169,23 +185,23 @@ const Home = () => {
             <div className="text-center">
               <p className="headline-1 navbar-title">Visit Us</p>
               <address className="body-4">
-                Room 23, Block K, Bayero University Kano <br />
+                Bayero University Kano <br />
                 Kano State, Nigeria
               </address>
               {/* <p className="body-4 navbar-text">Open: 9.30 am - 2.30pm</p> */}
               <a
-                href="muhammadlawankola@gmail.com"
+                href="emmaschocobakes@gmail.com"
                 className="body-4 sidebar-link"
               >
-                muhammadlawankola@gmail.com
+                emmaschocobakes@gmail.com
               </a>
               <div className="separator"></div>
               <p className="contact-label">Booking Request</p>
               <a
-                href="tel:+88123123456"
+                href="tel:+2348088109416"
                 className="body-1 contact-number hover-underline"
               >
-                +88-123-123456
+                +234 (808) 810 9416
               </a>
             </div>
           </nav>
@@ -225,22 +241,22 @@ const Home = () => {
                 src="./assets/images/hero-slider-1.jpg"
                 width="1880"
                 height="950"
-                alt=""
+                alt="Freshly baked cakes"
                 className="img-cover"
               />
             </div>
-            <p className="slider-reveal-edit">Fresh and Quality Grains</p>
+            <p className="slider-reveal-edit">Affordable and Tasty</p>
             <h1 className="display-1 hero-title slider-reveal">
-              Get the Best <br /> Grains on Campus
+              Enjoy Quality Treats <br /> That Won't Break the Bank
             </h1>
             <p className="body-2 hero-text slider-reveal">
-              We supply high-quality rice, beans, and other grains at affordable
-              prices.
+              Our cakes, cookies, and pastries are baked with love and offered
+              at the best prices.
             </p>
             <a href="#contact" className="btn btn-primary slider-reveal">
-              <span className="text text-1">Shop Now</span>
+              <span className="text text-1">Buy Now</span>
               <span className="text text-2" aria-hidden="true">
-                Shop Now
+                Buy Now
               </span>
             </a>
           </li>
@@ -253,17 +269,19 @@ const Home = () => {
                 src="./assets/images/hero-slider-2.jpg"
                 width="1880"
                 height="950"
-                alt=""
+                alt="Affordable bakery treats"
                 className="img-cover"
               />
             </div>
-            <p className="slider-reveal-edit">Affordable Prices</p>
+            <p className="slider-reveal-edit">Delicious and Fresh Bakes</p>
             <h1 className="display-1 hero-title slider-reveal">
-              Quality Grains <br /> Within Your Budget
+              Indulge in <br /> Freshly Baked Goodness
             </h1>
             <p className="body-2 hero-text slider-reveal">
-              Save money without compromising on quality. Perfect for students!
+              From soft cakes to buttery pastries, we deliver freshly baked
+              treats every day.
             </p>
+
             <a href="#contact" className="btn btn-primary slider-reveal">
               <span className="text text-1">Order Now</span>
               <span className="text text-2" aria-hidden="true">
@@ -280,21 +298,22 @@ const Home = () => {
                 src="./assets/images/hero-slider-3.jpg"
                 width="1880"
                 height="950"
-                alt=""
+                alt="Fresh bakery delivery"
                 className="img-cover"
               />
             </div>
             <p className="slider-reveal-edit">Convenient Delivery</p>
             <h1 className="display-1 hero-title slider-reveal">
-              Fresh Grains <br /> Delivered to Your Doorstep
+              Freshly Baked <br /> Delivered to Your Doorstep
             </h1>
             <p className="body-2 hero-text slider-reveal">
-              We make it easy for you to get the grains you need without hassle.
+              Get cakes, snacks, and desserts delivered warm and fresh straight
+              to you.
             </p>
             <a href="#contact" className="btn btn-primary slider-reveal">
-              <span className="text text-1">Order Now</span>
+              <span className="text text-1">Buy Now</span>
               <span className="text text-2" aria-hidden="true">
-                See Our Products
+                Buy Now
               </span>
             </a>
           </li>

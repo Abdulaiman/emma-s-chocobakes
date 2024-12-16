@@ -1,14 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
-  <!-- Plate and Spoon Symbol -->
-  <circle cx="70" cy="75" r="60" fill="#d8c292"/>
-  <circle cx="70" cy="75" r="45" fill="black"/>
-  <path d="M82 48c-3-7 0-15 6-19 4-4 10-4 14 0 4 4 7 12 6 19-1 6-8 12-12 15v35c0 5-4 9-9 9s-9-4-9-9V63c-5-3-10-9-12-15z" fill="#d8c292"/>
-
-  <!-- Text -->
-  <text x="150" y="80" font-family="Times New Roman, serif" font-size="60" fill="white">
-    KOLA
+  <!-- Bakery Themed Icon: Cake with Layers -->
+  <!-- Cake Base -->
+  <rect x="70" y="80" width="100" height="40" rx="5" fill="#8B4513" stroke="#5A2E0D" stroke-width="2"/>
+  <!-- Cake Layer -->
+  <rect x="75" y="60" width="90" height="20" rx="5" fill="#D2691E" stroke="#A0522D" stroke-width="2"/>
+  <!-- Icing -->
+  <path d="M75 60 Q90 50 105 60 T150 60 L165 60 L165 80 Q150 70 135 80 T90 80 L75 80 Z" fill="#f5d7b6"/>
+  <!-- Candle -->
+  <rect x="115" y="40" width="10" height="20" fill="#FF6347"/>
+  <circle cx="120" cy="40" r="5" fill="#FFD700"/>
+  
+  <!-- Bakery Name: Emma's Chocobakes -->
+  <text x="200" y="70" font-family="'Times New Roman', serif" font-size="40" fill="white" letter-spacing="3">
+    Emma's
   </text>
-  <text x="150" y="120" font-family="Arial, sans-serif" font-size="30" fill="#d8c292" letter-spacing="5">
-    RICE
+  <text x="200" y="110" font-family="'Arial', sans-serif" font-size="30" fill="#d8c292" letter-spacing="2">
+    Chocobakes
   </text>
 </svg>

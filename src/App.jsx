@@ -14,7 +14,7 @@ const App = () => {
       <ServiceSection />
       <AboutSection />
       <SpecialDish />
-      <Menu />
+      {/* <Menu /> */}
       <FeaturesSection />
       <Reservation />
     </div>

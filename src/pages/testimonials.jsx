@@ -4,15 +4,19 @@ const Testimonial = () => {
   return (
     <section
       className="section testi text-center has-bg-image"
-      style={{ backgroundImage: "url('./assets/images/testimonial-bg.jpg')" }}
+      style={{
+        backgroundImage: "url('./assets/images/contactbackground.jpg')",
+      }}
       aria-label="testimonials"
     >
       <div className="container">
         <div className="quote">”</div>
         <p className="headline-2 testi-text">
-          Great quality rice and beans at affordable prices! Perfect for
-          students. Fast delivery and excellent service. Highly recommend!
+          The pastries are absolutely delightful and always fresh! Perfect for
+          any occasion. Quick delivery and fantastic customer service. Highly
+          recommend!
         </p>
+
         <div className="wrapper">
           <div className="separator"></div>
           <div className="separator"></div>
@@ -45,8 +49,8 @@ const Reservation = () => {
               <h2 className="headline-1 text-center">Online Order</h2>
               <p className="form-text text-center">
                 Booking request{" "}
-                <a href="tel:+2347085536471" className="link">
-                  +234-708-553-6471
+                <a href="tel:+2348088109416" className="link">
+                  +234-808-810-9416
                 </a>{" "}
                 or fill out the order form
               </p>
@@ -81,11 +85,23 @@ const Reservation = () => {
                 <div className="icon-wrapper">
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
                   <select name="person" className="input-field">
-                    <option key={"Rice"} value={"Rice"}>
-                      Rice
+                    <option key={"Brownies"} value={"Brownies"}>
+                      Brownies
                     </option>
-                    <option key={"Beans"} value={"Beans"}>
-                      Beans
+                    <option key={"Cake"} value={"Cake"}>
+                      Cake
+                    </option>
+                    <option key={"Donut"} value={"Donut"}>
+                      Donut
+                    </option>
+                    <option key={"Snack"} value={"Snack"}>
+                      Snack
+                    </option>
+                    <option key={"Wedding-cake"} value={"Wedding-cake"}>
+                      Wedding-cake
+                    </option>
+                    <option key={"Cupcake"} value={"Cupcake"}>
+                      Cupcake
                     </option>
                   </select>
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
@@ -125,15 +141,15 @@ const Reservation = () => {
               <h2 className="headline-1 text-center">Contact Us</h2>
               <p className="contact-label">Booking Request</p>
               <a
-                href="tel:+2347085536471"
+                href="tel:+2348088109416"
                 className="body-1 contact-number hover-underline"
               >
-                +234-708-553-6471
+                +234-808-810-9416
               </a>
               <div className="separator"></div>
               <p className="contact-label">Location</p>
               <address className="body-4">
-                Room 23, Block K, Bayero University Kano <br />
+                Bayero University Kano <br />
                 Kano State, Nigeria
               </address>
               {/* <p className="contact-label">Lunch Time</p>

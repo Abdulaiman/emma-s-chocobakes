@@ -35,22 +35,40 @@ const ServiceCard = ({ imageSrc, altText, title, link }) => {
 const ServiceSection = () => {
   const services = [
     {
-      imageSrc: "./assets/images/service-1.jpg", // Replace with an actual beans image
-      altText: "Beans",
-      title: "Fresh Beans",
-      link: "#",
+      imageSrc: "./assets/images/cupcake.jpg",
+      altText: "Cupcakes",
+      title: "Decorative Cupcakes",
+      link: "#cupcake",
     },
     {
-      imageSrc: "./assets/images/service-2.jpg", // Replace with an actual rice image
-      altText: "Rice",
-      title: "Premium Rice",
-      link: "#",
+      imageSrc: "./assets/images/cake.jpg",
+      altText: "Cake",
+      title: "Delicious Cakes",
+      link: "#cake",
     },
     {
-      imageSrc: "./assets/images/service-3.jpg", // Replace with another beans image
-      altText: "Beans Variety",
-      title: "Variety of Beans",
-      link: "#",
+      imageSrc: "./assets/images/brownie.jpg",
+      altText: "Brownies",
+      title: "Fudgy Brownies",
+      link: "#brownie",
+    },
+    {
+      imageSrc: "./assets/images/donuts.jpg",
+      altText: "Donuts",
+      title: "Glazed Donuts",
+      link: "#donut",
+    },
+    {
+      imageSrc: "./assets/images/snack.jpg",
+      altText: "Pastries",
+      title: "Savory Pastries",
+      link: "#snack",
+    },
+    {
+      imageSrc: "./assets/images/weddingcake.jpg",
+      altText: "Wedding Cake",
+      title: "Custom Wedding Cakes",
+      link: "#weddingcake",
     },
   ];
 
@@ -60,14 +78,14 @@ const ServiceSection = () => {
       aria-label="service"
     >
       <div className="container">
-        <p className="slider-reveal-edit">Grains for Every Need</p>
+        <p className="slider-reveal-edit">Baked Delights for Every Occasion</p>
         <h2 className="headline-1 section-title">
-          Fresh, Affordable, Reliable
+          Freshly Baked, Always Delicious
         </h2>
         <p className="section-text">
-          Discover the highest quality grains on campus. From premium rice to
-          fresh beans, we provide the staples you need for every meal, at prices
-          that fit your budget.
+          Discover the finest bakery treats. From indulgent cakes to buttery
+          pastries, we bring you delightful flavors that make every moment
+          special.
         </p>
 
         <ul className="grid-list">

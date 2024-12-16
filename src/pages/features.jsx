@@ -5,30 +5,30 @@ const FeaturesSection = () => {
     {
       id: 1,
       icon: "./assets/images/features-icon-1.png",
-      title: "Hygienic Food",
+      title: "Freshly Baked Goods",
       description:
-        "We ensure all our food products are prepared and packaged with the highest hygiene standards.",
+        "Our baked goods are made fresh daily, ensuring you enjoy the finest flavors and textures with every bite.",
     },
     {
       id: 2,
       icon: "./assets/images/features-icon-2.png",
-      title: "Fresh Produce",
+      title: "Top-Notch Hygiene",
       description:
-        "We source only the freshest ingredients, ensuring you get the best quality in every meal.",
+        "We adhere to the highest hygiene standards, ensuring every product is baked and packaged with care and cleanliness.",
     },
     {
       id: 3,
       icon: "./assets/images/features-icon-3.png",
-      title: "Affordable Pricing",
+      title: "Skilled Baker",
       description:
-        "Our food products, like rice and beans, are available at reasonable prices, ensuring great value for money.",
+        "we combines artistry and precision to craft delicious and beautifully designed treats.",
     },
     {
       id: 4,
       icon: "./assets/images/features-icon-4.png",
-      title: "On-Time Delivery",
+      title: "Timely Delivery",
       description:
-        "We ensure fast and reliable delivery of your orders, bringing food right to your doorstep.",
+        "Enjoy the convenience of fresh bakery products delivered straight to your door, right on time.",
     },
   ];
 

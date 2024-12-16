@@ -193,7 +193,7 @@ body {
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-5);
   overflow: hidden;
-  height: 300vh;
+  min-height: 300vh;
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -645,11 +645,11 @@ body.nav-active {
 .preload .text {
   background-image: var(--loading-text-gradient);
   background-size: 500%;
-  font-size: calc(2rem + 3vw);
+  font-size: calc(0.75rem + 3vw);
   font-weight: var(--weight-bold);
   line-height: 1em;
   text-transform: uppercase;
-  letter-spacing: 16px;
+  letter-spacing: 6px;
   padding-inline-start: 16px;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -901,7 +901,6 @@ body.nav-active {
   min-height: 100vh;
   overflow: hidden;
   z-index: 1;
-  margin-top: 60rem;
 }
 
 .hero .slider-item {
@@ -1165,8 +1164,10 @@ body.nav-active {
 /*-----------------------------------*\
     #SPECIAL DISH
   \*-----------------------------------*/
-.mainmain {
-  margin-top: 400rem;
+
+.special-dish {
+  padding-bottom: 10rem;
+  text-align: center;
 }
 
 .special-dish-content {
@@ -1643,12 +1644,6 @@ textarea.input-field {
 /**
    * responsive for larger than 575px screen
    */
-
-@media (max-width: 768px) {
-  .mainmain {
-    margin-top: 680rem;
-  }
-}
 
 @media (min-width: 575px) {
   /**

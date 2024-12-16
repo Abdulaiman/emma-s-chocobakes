@@ -19,7 +19,7 @@ const Menu = () => {
   ];
 
   return (
-    <section className="section menu" aria-label="menu-label" id="menu">
+    <section className="section menu" aria-label="menu-label" id="delights">
       <div className="container">
         <p className="slider-reveal-edit text-center">Special Selection</p>
         <h2 className="headline-1 section-title text-center">Our Items</h2>
